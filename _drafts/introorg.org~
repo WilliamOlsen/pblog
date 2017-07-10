@@ -1,0 +1,29 @@
+#+STARTUP: shoall indent
+#+STARTUP: hidestars
+#+BEGIN_HTML
+
+---
+layout: post
+title: "A Quick Introduction to Org Mode"
+date: 2017-07-08
+---
+#+END_HTML
+#+OPTIONS: toc:nil
+
+
+* Finish tasks
+
+* Automatically open your agenda file every time you start Emacs
+It's convenient for me to see my agenda file as soon as I open Emacs after logging on to my computer.  To do this, 
+1. #+BEGIN_SRC emacs-lisp
+   C-x C-f ~/.emacs.d/init.el
+   #+END_SRC
+2. Go to the end of this file. (Handy shortcut: C-end)
+3. Add (find-file "~/todo.org")
+4. Save with C-x C-s (save-buffer)
+
+You can test it with M-x eval-buffer while looking at your ~/.emacs.d/init.el.  If it works, it should show your agenda file.
+
+You have just written a little Emacs lisp.  Totally not scary.
+
+

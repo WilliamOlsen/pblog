@@ -1,0 +1,14 @@
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+BEGIN_HTML
+---
+layout: post
+title: "Org-mode -> Jekyll -> GitHub Blog Workflow"
+date: 2015-04-10
+excerpt: This post describes my blogging workflow...
+---
+#+END_HTML
+
+
+* My first org file
+This file is the greatest.

@@ -1,0 +1,34 @@
+---
+layout: post
+title: "A Quick Introduction to Org Mode"
+date: 2017-07-08
+---
+
+# Finish tasks
+
+# Automatically open your agenda file every time you start Emacs
+
+It's convenient for me to see my agenda file as soon as I open Emacs after logging on to my computer.  To do this, 
+
+1.  <code>C-x C-f ~/.emacs.d/init.el</code>
+2.  Go to the end of this file. (Handy shortcut: <code>C-end</code>)
+3.  Add <code>(find-file "~/todo.org")</code>
+4.  Save with <code>C-x C-s</code> (save-buffer)
+
+# Define shortcuts for managing TODO states
+
+Now we want to put each of our tasks into 'states'.  My favorite states are
+
+-   todo
+-   in progress
+-   waiting
+-   canceled
+-   done
+
+To see what this looks like
+
+## TODO A task I want to do.
+
+## INPROGRESS A task that I'm currently working on which is being clocked to see how long it's taking to do it.
+
+## A task that I've completed.

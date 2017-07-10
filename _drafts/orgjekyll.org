@@ -1,0 +1,9 @@
+
+* How to use org and Jekyll
+I want to write my blog posts (and most everything else) in org-mode.
+
+* Why use Org-mode?
+Only because it is the best.  I write my lecture notes in it, and then I export to LaTex where I do my final editing.
+
+* Why use Jekyll?
+There's only one reason: because it's the best. Duh.
